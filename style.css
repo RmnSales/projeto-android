@@ -42,6 +42,8 @@ main {
 }
 h1,h2 {
     font-family: 'android';
+    font-size: normal;
+    font-weight: bold;
 }
 
 h2 {
