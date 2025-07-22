@@ -1,6 +1,13 @@
 @charset "UTF-8";
 @font-face {
-    
+    font-family:'Android';
+    src: url('/fontes/idroid.otf') format(opentype);
+    font-size: normal;
+    font-weight: bold;
+
+}
+.login{
+    font-family: 'Android' !important;
 }
 :root {
     --fonte-padrao: Arial, verdana, helvetica
@@ -40,7 +47,7 @@ main {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 h1,h2 {
-    font-family: 'Arial';
+    font-family: 'Android';
     font-size: normal;
     font-weight: bold;
 }
