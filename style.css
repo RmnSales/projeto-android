@@ -5,7 +5,9 @@
     font-size: normal;
     font-weight: bold;
 }
-
+:root {
+    --fonte-padrao: Arial, verdana, helvetica
+}
 header {
     text-shadow: 1px;
     color: white;
