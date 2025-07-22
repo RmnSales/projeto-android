@@ -46,7 +46,7 @@ main {
     padding: 10px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-h1,h2 {
+main h1{
     font-family: 'Android';
     font-size: normal;
     font-weight: bold;
