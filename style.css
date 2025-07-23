@@ -1,14 +1,9 @@
 @charset "UTF-8";
 @font-face {
     font-family: "Android";
-    src: url(fontes/idroid.otf);
+    src: url(fontes/idroid.otf)format(opentype);
 }
-.login{
-    font-family: 'Android' !important;
-}
-:root {
-    --fonte-padrao: Arial, verdana, helvetica
-}
+
 header {
     text-shadow: 1px;
     color: white;
@@ -46,10 +41,10 @@ main {
 main h1{
     font-family: 'Android';
     font-size: normal;
-    font-weight: bold;
 }
 
 h2 {
+    font-family: 'Android';
     color: green;
 }
 
@@ -131,6 +126,7 @@ div.video > iframe {
 }
 
 .topo {
+    font-family: "Android";
     color: white;
     text-align: center;
 }
